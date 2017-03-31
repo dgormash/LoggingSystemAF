@@ -1,6 +1,6 @@
 ﻿namespace LoggingSystemAF.Interfaces.AFactory
 {
-    interface ILogger //Абстрактный логгер (только создаёт продукты (элементы) системы)
+    public interface ILogger //Абстрактный логгер (только создаёт продукты (элементы) системы)
     {
         ILogWriter CreateLogWriter();
         ILogReader CreateLogReader();

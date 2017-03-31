@@ -8,5 +8,6 @@ namespace LoggingSystemAF.Interfaces
 {
     interface ILogWriter
     {
+        void WriteToLogFile(string file, string message);
     }
 }

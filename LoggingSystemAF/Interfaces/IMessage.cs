@@ -2,7 +2,7 @@
 namespace LoggingSystemAF.Interfaces
 {
     interface IMessage //Абстрактное сообщение
-    {
-        string GetMessage(MessageTypes type);
+    {  
+        void SetMessage(MessageTypes type, string message);
     }
 }

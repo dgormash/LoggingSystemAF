@@ -8,5 +8,6 @@ namespace LoggingSystemAF.Interfaces
 {
     interface ILogReader
     {
+        void ReadLog(string name);
     }
 }

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace LoggingSystemAF
 {
-    class MessageTypes
+    enum MessageTypes
     {
+            Normal,
+            Good,
+            Warning,
+            Error,
+            CriticalError,
+            FatalError
     }
 }

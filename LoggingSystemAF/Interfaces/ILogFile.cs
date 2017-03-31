@@ -8,5 +8,6 @@ namespace LoggingSystemAF.Interfaces
 {
     interface ILogFile //Абстрактный файл лога
     {
+        void CreateFile(string fullName);
     }
 }
