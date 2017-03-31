@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoggingSystemAF.Interfaces
 {
-    interface ILogReader
+    public  interface ILogReader
     {
         void ReadLog(string name);
     }

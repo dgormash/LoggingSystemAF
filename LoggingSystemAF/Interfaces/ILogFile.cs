@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LoggingSystemAF.Interfaces
+﻿namespace LoggingSystemAF.Interfaces
 {
-    interface ILogFile //Абстрактный файл лога
+    
+    public interface ILogFile //Абстрактный файл лога
     {
+        string Name { get;  set; }
         void CreateFile(string fullName);
     }
 }

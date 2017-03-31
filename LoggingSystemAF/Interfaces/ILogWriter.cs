@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoggingSystemAF.Interfaces
 {
-    interface ILogWriter
+    public interface ILogWriter
     {
         void WriteToLogFile(string file, string message);
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoggingSystemAF
 {
-    enum MessageTypes
+    public enum MessageTypes
     {
             Normal,
             Good,
